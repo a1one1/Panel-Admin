@@ -112,7 +112,7 @@ gulp.task('prod', () => {
             }
         }))
         .pipe(gulp.dest(prod))
-    return gulp.src('./app/scss/styles.scss')
+    return gulp.src('./app/scss/style.scss')
         .pipe(sass().on('error', sass.logError))
         .pipe(postcss([autoprefixer()]))
         .pipe(cleanCSS())

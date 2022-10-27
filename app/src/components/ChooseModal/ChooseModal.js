@@ -49,7 +49,7 @@ const ChooseModal = ({ close, data, redirect }) => {
         </ul>
         <div className="modal__buttons">
           <button
-            className="uk-button uk-button-default"
+            className="uk-button uk-button-text"
             onClick={() => close()}
           >
             Отменить

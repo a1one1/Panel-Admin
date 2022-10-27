@@ -9,13 +9,13 @@ const ConfirmModal = ({ method, close, text }) => {
         <p>{desctiption}</p>
         <div className="modal__buttons">
           <button
-            className="uk-button uk-button-default uk-margin-small-right"
+            className="uk-button uk-button-text uk-margin-small-right"
             onClick={() => close()}
           >
             Отменить
           </button>
           <button
-            className="uk-button uk-button-primary"
+            className="uk-button uk-button-text"
             onClick={() => {
               method();
             }}
